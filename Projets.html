@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Portfolio</title>
+    <link rel="stylesheet" href= "https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" /> 
+
+    <!-- Favicons -->
+    <link rel="icon" href="./assets/favicon.ico" type="image/x-icon" />
+    <link
+      rel="apple-touch-icon"
+      sizes="180x180"
+      href="./assets/apple-touch-icon.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/favicon-32x32.png"
+    />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="16x16"
+      href="./assets/favicon-16x16.png"
+    />
+    <link rel="manifest" href="./assets/site.webmanifest" />
+
+    <meta
+      name="description"
+      content="Developer Portfolio centered around GlassMorphic UI"
+    />
+    <meta
+      name="keywords"
+      content="Developer, Portfolio, HTML, CSS, JS, GlassMorphic, Glassmorphic, GlassMorphism, Glassmorphism, UI"
+    />
+
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    
+
+    <link rel="stylesheet" href="./assets/css/all.min.css" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+        <link rel="stylesheet" href="./assets/css/style-projet.css" />
+
+
+    <script defer src="./assets/js/filtre-card.js"
+
+
+
+
+    <script defer src="./assets/js/all.js"></script>
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@latest/devicon.min.css"
+    />
+    <script src="https://code.iconify.design/2/2.0.4/iconify.min.js"></script>
+    <script src="./assets/js/repo-card.js"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <!--Animation-->
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+
+    <section>
+      <div class="container">
+        <div id="top" class="page-scroll"></div>
+       
+        <!-- Navbar -->
+        <header>
+          <a href="./index.html" class="logo">Jordan Pech</a>
+          <ul>
+            <li><a class="page" href="./index.html" id="home-btn">Accueil</a></li>
+            <li><a href="#top" class="active page" id="project-btn">Projets</a></li>
+            <li><a href="./contact.html" class="page" id="about-btn">Contact</a></li>
+            
+          </ul>
+        </header>
+        <!--& CONTENT -->
+
+
+        
+        <h2 style="font-weight: 550; font-size: 3rem;">   
+          <span class="low-highlight-pink">Mes Projets</span>
+        </h2>
+
+        <p> Je regroupe ici tout les projets que j'ai pu réaliser</p>
+      
+
+
+        </div>
+        <div class="container-filter-projets"style="display=flex" >
+          <button onclick="filterCards('crea', this)">Création Numérique</button>
+          <button onclick="filterCards('dev', this)">Développement</button>
+          <button onclick="filterCards('com', this)">Communication</button>
+          <button id="reset" , onclick="resetFilters()">Reset</button> <!-- Ajoutez le bouton de reset -->
+          </div>
+      </div>
+
+      
+      <div class="container-project">
+
+
+      <div class="projet-cards-div" ;style="display: flex;">
+
+
+        
+
+
+
+        <!--  --------------art ---->
+        <a href="./projets-html/artiste-contemporain.html"><div class="card crea dev com" >
+
+          
+        <div class="projet-banner" style="background-image: url('./assets/artiste-contemporain.jpg');">
+            <div class="projet-blurred_div"></div>
+            <div class="projet-div-company">
+              
+          </div>
+          
+       
+          </div>
+  
+          <div class="projet-text-details"> <!-- TEXTE ------------------>
+            <h5 class="projet-text-role">Artiste Contemporain</h5>
+            <h5 class="projet-text-date">Janvier 2019 – Maintenant</h5>
+
+            <p class="subTitle projet-text-desc">
+              Motivé par un artiste sur YouTube, je découvre la peinture abstraite que j'affectionne rapidement et cherche à professionnaliser mon projet. J'apprends à coder, à faire des supports de communication, des vidéos...
+            </p>
+
+          </div> 
+        </div>  <!--  ------------------></a>
+
+
+
+          
+
+          <!--formateur CARD-->
+         
+          <div class="card crea" > <a href="./projets-html/8lab.html">
+            <div
+              class="projet-banner"
+              style="background: radial-gradient(circle, #2f174a, #05000E);"
+
+            >
+              <div class="projet-blurred_div"></div>
+              <div class="projet-div-company">
+                <svg width="159" height="25" viewBox="0 0 159 25" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <g clip-path="url(#clip0_5826_1841)">
+                  <mask id="mask0_5826_1841" style="mask-type:alpha" maskUnits="userSpaceOnUse" x="0" y="0" width="64" height="25">
+                  <path d="M4.57847 5.97963L12.7052 0H27.5576L6.82033 16.068L7.79523 17.1377L45.9425 1.59062C57.9965 -2.5221 63.5065 3.64698 63.5065 10.1871C63.5065 13.6446 61.9198 17.1929 58.928 19.344L51.3617 24.5777H36.0396L56.8716 9.63057L55.8967 8.46622L17.3784 23.4488C5.50995 27.2813 0 21.3017 0 15.0418C0 11.5843 1.58668 8.12678 4.57847 5.97963Z" fill="url(#paint0_radial_5826_1841)"/>
+                  </mask>
+                  <g mask="url(#mask0_5826_1841)">
+                  <g filter="url(#filter0_d_5826_1841)">
+                  <path d="M239.531 52.8564C221.339 92.6889 138.462 93.8641 54.4198 55.4814C-29.6225 17.0987 -83.0049 -46.3072 -64.8131 -86.1396C-46.6214 -125.972 36.2557 -127.147 120.298 -88.7647C204.34 -50.382 257.723 13.0239 239.531 52.8564Z" fill="url(#paint1_radial_5826_1841)"/>
+                  </g>
+                  </g>
+                  <path d="M94.5963 17.9467C94.5963 22.4067 90.898 24.9999 86.6432 24.9999C82.3884 24.9999 78.7256 22.4067 78.7256 17.9467C78.7256 15.1799 80.1781 13.1748 82.3568 12.0341C80.4899 10.9645 79.2782 9.1647 79.2782 6.7097C79.2782 2.4904 82.7002 0.106445 86.6432 0.106445C90.5862 0.106445 94.0082 2.4904 94.0082 6.7097C94.0082 9.1647 92.832 10.9645 90.9651 12.0341C93.1438 13.1748 94.5963 15.1799 94.5963 17.9467ZM81.7016 17.8441C81.7016 20.6464 83.8448 22.3396 86.6471 22.3396C89.4495 22.3396 91.5926 20.6464 91.5926 17.8441C91.5926 15.0417 89.485 13.3485 86.6471 13.3485C83.8093 13.3485 81.7016 15.0772 81.7016 17.8441ZM86.6471 2.83774C84.2632 2.83774 82.2226 4.32574 82.2226 6.81232C82.2226 9.2989 84.2632 10.8579 86.6471 10.8579C89.0311 10.8579 91.1072 9.30285 91.1072 6.81232C91.1072 4.32179 89.0666 2.83774 86.6471 2.83774Z" fill="#EAECFC"/>
+                  <path d="M99.8184 24.6525V22.2686H106.493V2.45883H101.342V0.106445H109.398V22.2686H116.072V24.6525H99.8223H99.8184Z" fill="#EAECFC"/>
+                  <path d="M135.53 13.9722V20.1254L136.466 24.6526H133.802L132.866 21.9924C131.931 23.5119 129.409 24.9999 126.989 24.9999C122.876 24.9999 120.938 22.4778 120.938 20.1254C120.938 13.9721 127.992 13.9722 132.625 13.9722C132.625 11.4145 131.725 9.58314 128.718 9.58314C126.677 9.58314 124.846 10.412 124.672 12.5552H121.803C121.803 8.78585 125.501 6.91895 128.753 6.91895C132.661 6.91895 135.53 9.54762 135.53 13.9722ZM123.982 20.1254C123.982 21.6135 125.122 22.3397 127.127 22.3397C128.509 22.3397 132.866 21.9924 132.625 16.2535C127.925 16.2535 123.982 16.2535 123.982 20.1254Z" fill="#EAECFC"/>
+                  <path d="M142.513 0.106445H145.453V9.51203C146.42 8.09508 148.532 6.91889 150.675 6.91889C155.964 6.91889 158.419 11.3434 158.419 15.91C158.419 20.4767 155.928 25.0038 150.675 25.0038C148.773 25.0038 146.456 24.1394 145.453 22.4817L145.212 24.6604H142.517V0.106445H142.513ZM145.453 15.9061C145.453 18.5663 146.318 22.4423 150.675 22.4423C153.959 22.4423 155.376 19.3321 155.376 15.9061C155.376 12.4801 153.959 9.44099 150.675 9.44099C146.286 9.44099 145.453 13.313 145.453 15.9061Z" fill="#EAECFC"/>
+                  </g>
+                  <defs>
+                  <filter id="filter0_d_5826_1841" x="-72.3701" y="-116.8" width="319.458" height="208.317" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+                  <feFlood flood-opacity="0" result="BackgroundImageFix"/>
+                  <feColorMatrix in="SourceAlpha" type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0" result="hardAlpha"/>
+                  <feOffset dy="4"/>
+                  <feGaussianBlur stdDeviation="2"/>
+                  <feComposite in2="hardAlpha" operator="out"/>
+                  <feColorMatrix type="matrix" values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.25 0"/>
+                  <feBlend mode="normal" in2="BackgroundImageFix" result="effect1_dropShadow_5826_1841"/>
+                  <feBlend mode="normal" in="SourceGraphic" in2="effect1_dropShadow_5826_1841" result="shape"/>
+                  </filter>
+                  <radialGradient id="paint0_radial_5826_1841" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(35.75 13.75) rotate(32.4712) scale(42.3748 109.149)">
+                  <stop stop-color="#EAECFC"/>
+                  <stop offset="1" stop-color="#8B8C96"/>
+                  </radialGradient>
+                  <radialGradient id="paint1_radial_5826_1841" cx="0" cy="0" r="1" gradientUnits="userSpaceOnUse" gradientTransform="translate(86.5027 -18.6497) rotate(111.947) scale(79.046 180.729)">
+                  <stop offset="0.385883" stop-color="#0B0C0E"/>
+                  <stop offset="0.472778" stop-color="#1F0F50"/>
+                  <stop offset="0.586423" stop-color="#330F8D"/>
+                  <stop offset="0.687003" stop-color="#6724C2"/>
+                  <stop offset="0.787604" stop-color="#A569DB"/>
+                  <stop offset="0.892141" stop-color="#D4ABE3"/>
+                  <stop offset="0.99884" stop-color="#E1FCF5"/>
+                  </radialGradient>
+                  <clipPath id="clip0_5826_1841">
+                  <rect width="158.419" height="25" fill="white"/>
+                  </clipPath>
+                  </defs>
+                  </svg>
+              </div>
+         
+            </div>
+
+            <!--* TEXTE ----->
+            <div class="projet-text-details">
+              <h5 class="projet-text-role">Formateur Photoshop</h5>
+              <h5 class="projet-text-date">Février 2024 – Mars 2024</h5>
+              <p class="subTitle projet-text-desc">
+                J'ai réalisé un module Photoshop dans la formation Roadto8Labs, une formation en e-commerce cumulant plus de 250 élèves en moins d'un an. J'étais en charge de former les élèves à l'usage de Photoshop...
+              </p>
+            </div><!--* --------------------->
+
+          </a></div>
+
+          <!-- Miniamaker CARD-->
+          
+          <div class="card crea com" ><a href="./projets-html/miniamaker.html">
+            <div class="projet-banner" style="background-image: url('./assets/fond-miniature-petit.jpg');">
+              <div class="projet-blurred_div"></div>
+              <div class="projet-div-company">
+                
+              </div>
+              
+            </div>
+
+
+            <div class="projet-text-details">
+              <h5 class="projet-text-role">Graphiste Freelance</h5>
+              <h5 class="projet-text-date">Oct 2023 – Maintenant</h5>
+
+              <p class="subTitle projet-text-desc">
+                Spécialisé dans les miniatures YouTube pour des chaînes "business", j'ai pu travailler avec des entrepreneurs présents partout dans le monde...
+              </p>
+            </div>
+          </a> </div><!-- TODO    ------------------------------------>
+
+        </div>  <!-- & ---- ---------------------------------- -->
+
+
+
+      
+      
+      </div>
+
+    
+
+
+      
+
+      <div class="container">        <!-- Footer -->
+        <div style="padding-top: 25px;padding-bottom: 25px;width: 100%;"><div class="separator"></div> <!-- Ajout de la barre de séparation --></div>
+        <div class=footer-section>
+          
+          <div >
+            <a href="./Plan-site.html"><h3>Plan du site : </h3></a>
+            <a href="./index.html"><p>Accueil</p></a>
+            <a href="./Projets.html"><p>Projets</p></a>
+            <a href="./contact.html"><p>Me contacter</p></a>
+            
+          </div>
+          <div >
+            <a href="home.html"><p>Mentions légales</p></a>
+          </div></div>
+    </section>
+  
+
+
+
+
+
+    <!--LE TRUC QUI PERMET DE REMONTER TOUT EN HAUT-->
+    <div class="button-top-div" id="myDIV">
+      <a id="button-top" href="#top"><i class="fas fa-chevron-up"></i></a>
+    </div>
+
+
+
+   
+
+  
+    
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
+  </body>
+</html>
